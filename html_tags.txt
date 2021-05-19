@@ -62,7 +62,7 @@
 <u>
 <var>
 <wbr>
-<svg><rect x="10" y="10" height="100" width="100" style="stroke:#ff0000; fill: #0000ff"/></svg>
+<svg>
 <iframe src="http://www.goyello.com"></iframe>
 <area>
 <audio>
