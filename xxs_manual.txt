@@ -1,0 +1,2 @@
+<script>alert(1)</script><h1>html 1</h1>
+<script>alert(localStorage.getItem('local-storage-key'))</script><h1>local storage test</h1>
