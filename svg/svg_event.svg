@@ -1,0 +1,20 @@
+<svg  xmlns="http://www.w3.org/2000/svg"
+      xmlns:xlink="http://www.w3.org/1999/xlink">
+
+    <script type="text/ecmascript"><![CDATA[
+        console.log(1);
+        function hackpage(evt) {
+                console.log(2);
+                alert(3);
+            }
+        ]]>
+    </script>
+
+
+    <rect
+          onclick='alert(4)'
+          x="10" y="10"
+          height="100"
+          width="100"
+          style="stroke:#ff0000; fill: #0000ff"/>
+</svg>
