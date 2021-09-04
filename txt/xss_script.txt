@@ -1,0 +1,10 @@
+<script></script>
+<Script></Script>
+<ScRipt></ScRipt>
+<ScRiPt></ScRiPt>
+<SCRIPT></SCRIPT>
+<scr<script>ipt></scr</script>ipt>
+<scr<scr<script>ipt>ipt></scr</scr</script>ipt>ipt>
+alert
+alert()
+alert(1)
