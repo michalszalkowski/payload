@@ -1,0 +1,25 @@
+<a href="#" onError=alert(1)>link1</a>
+
+<a href="#" onError='alert(1)'>link2</a>
+<a href="# onError='alert(1)'>link3</a>
+<a href=#" onError='alert(1)'>link4</a>
+<a href=# onError='alert(1)'>link5</a>
+
+<a href="#" title="" onError='alert(1)'>link6</a>
+<a href="#" title='' onError='alert(1)'>link7</a>
+
+<a href="#" title=/ onError='alert(1)'>link8</a>
+<a href="#" title=// onError='alert(1)'>link9</a>
+<a href="#" title=/// onError='alert(1)'>link10</a>
+<a href="#" title=///" onError='alert(1)'>link11</a>
+<a href="#" title="/// onError='alert(1)'>link11</a>
+<a href="#" title=///' onError='alert(1)'>link12</a>
+<a href="#" title='/// onError='alert(1)'>link12</a>
+
+<a href="#" title=\ onError='alert(1)'>link13</a>
+<a href="#" title=\\ onError='alert(1)'>link14</a>
+<a href="#" title=\\\ onError='alert(1)'>link15</a>
+<a href="#" title=\\\" onError='alert(1)'>link16</a>
+<a href="#" title="\\\ onError='alert(1)'>link16</a>
+<a href="#" title=\\\' onError='alert(1)'>link17</a>
+<a href="#" title='\\\ onError='alert(1)'>link17</a>
