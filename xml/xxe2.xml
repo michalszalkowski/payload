@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!DOCTYPE
+        change-log [
+        <!ENTITY systemEntity SYSTEM "http://example.com/feed/">
+        ]
+        >
+<change-log>
+    <text>&systemEntity;</text>;
+</change-log>

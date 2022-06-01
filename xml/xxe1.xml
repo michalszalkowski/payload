@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<!DOCTYPE change-log[
+        <!ENTITY myName "Michal">
+        <!ENTITY mySurname "Szalkowski">
+        ]>
+<change-log>
+    <text>&myName; &mySurname;</text>
+</change-log>

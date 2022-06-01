@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<!DOCTYPE change-log [<!ENTITY systemEntity SYSTEM "/etc/passwd">]>
+<change-log>
+    <text>&systemEntity;</text>;
+</change-log>
